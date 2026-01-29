@@ -1,99 +1,71 @@
-# 📄 Personal Resume Website
+# My Resume Website
 
-A clean and simple personal resume website built with HTML. This project showcases my personal details, education, professional skills, achievements, and hobbies.
+Hey! This is my personal resume website made using HTML. I created this as part of my Cohort26 assignment.
 
-## 🌐 Live Demo
+## Live Demo
 
-**[View Live Demo](https://your-username.github.io/Cohort26/)** _(Update this link after deployment)_
+You can check it out here: https://namrasuthar.github.io/Cohort26/
 
-## 📸 Screenshots
+## Screenshot
 
-### Resume Preview
-![Resume Screenshot](screenshots/resume-preview.png)
+![resume screenshot](screenshots/image.png)
 
-## ✨ Features
+## About this project
 
-- 📝 Clean and simple HTML structure
-- 👤 Personal details section with profile image
-- 🎓 Education information
-- 💻 Professional skills (Programming Languages, Web Development, etc.)
-- 🏆 Achievements section
-- 🎯 Hobbies section
-- 📱 Responsive design ready
+I made a simple resume page with:
+- My personal details and photo
+- Education backgroud
+- Skills (programming languages, web dev stuff)
+- Achivements 
+- Hobbies section
 
-## 🛠️ Technologies Used
+Its a basic HTML page, nothing fancy but it works!
 
-- **HTML5** - Structure and content
+## Tech used
 
-## 🚀 Setup & Installation
+- HTML only (keeping it simple)
 
-### Prerequisites
-- A web browser (Chrome, Firefox, Edge, etc.)
-- Git (optional, for cloning)
+## How to run
 
-### Steps to Run Locally
+1. Clone the repo
+```
+git clone https://github.com/NamraSuthar/Cohort26.git
+```
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/your-username/Cohort26.git
-   ```
+2. Open the folder
+```
+cd Cohort26
+```
 
-2. **Navigate to the project folder**
-   ```bash
-   cd Cohort26
-   ```
+3. Just double click on `index.html` and it will open in browser
 
-3. **Open in browser**
-   - Simply double-click on `index.html` file, OR
-   - Right-click on `index.html` → Open with → Your preferred browser
+Or you can use Live Server extension in VS Code if you have it.
 
-### Alternative: Using VS Code Live Server
-1. Install the "Live Server" extension in VS Code
-2. Right-click on `index.html`
-3. Select "Open with Live Server"
-
-## 📁 Project Structure
+## Folder structure
 
 ```
 Cohort26/
-├── index.html          # Main resume page
-├── README.md           # Project documentation
-├── screenshots/        # Screenshots folder
-│   └── resume-preview.png
-└── 20230812_095941.jpg # Profile image (if present)
+├── index.html      
+├── README.md        
+└── screenshots/    
 ```
 
-## 🌍 Deployment
+## Deploying
 
-### Deploy on GitHub Pages (Recommended)
+I deployed it on GitHub Pages. If you want to do same:
+1. Go to Settings in your repo
+2. Click on Pages 
+3. Select main branch
+4. Save and wait few mins
 
-1. Go to your GitHub repository
-2. Navigate to **Settings** → **Pages**
-3. Under "Source", select **Deploy from a branch**
-4. Choose **main** branch and **/ (root)** folder
-5. Click **Save**
-6. Your site will be live at: `https://your-username.github.io/Cohort26/`
+Thats it, your site will be live!
 
-## 📝 Usage
+## Author
 
-1. Open the website in your browser
-2. Browse through different sections:
-   - Personal Details
-   - Education Information
-   - Professional Skills
-   - Achievements
-   - Hobbies
-
-## 👤 Author
-
-**Namra Suthar**
-- 📧 Email: namrasuthar7728@gmail.com
-- 🎓 B.E. in Information Technology at L.D College of Engineering (2023-2027)
-
-## 📄 License
-
-This project is open source and available for educational purposes.
+**Namra Suthar**  
+B.E IT student at LD College of Engineering  
+Email: namrasuthar7728@gmail.com
 
 ---
 
-⭐ If you found this helpful, please give it a star!
+Thanks for checking out my project! Feel free to give a star if you liked it ⭐
