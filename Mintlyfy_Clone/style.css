@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+
+    position: fixed;
+    width: full;
+    padding-top: 2px;
+    /* paddin-left: 2px; */
+    z-index: 50;
+    margin-inline: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    backdrop-filter: blur(20px);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.head-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    gap: 1em;
+}
+
+.head2 {
+
+    display: flex;
+    margin-left: 75px;
+
+}
+
+.logo {
+    width: 100px;
+}
+
+.Head_CTA {
+    display: flex;
+    inline-size: flex;
+    height: fit-content;
+    justify-content: center;
+    justify-items: center;
+    gap: 1em;
+    white-space: nowrap;
+    margin-right: 85px;
+
+}
+
+.btn1 {
+    padding: 7px 11px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    cursor: pointer;
+    backdrop-filter: blur(60px);
+}
+
+.btn2 {
+    padding: 7px 11px;
+
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    cursor: pointer;
+
+    backdrop-filter: blur(60px);
+}
+
+
+.bg-img1 {
+    background-image: url('Images/bg-light.svg');
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: -1rem;
+}
+
+.options {
+    width: auto;
+    gap: 18px;
+    display: flex;
+    align-self: left;
+    margin-inline-start: 120px;
+}
+
+.option:hover {
+
+    background-color: rgba(153, 153, 153, 0.466);
+    border-radius: 10px;
+}
+
+.option {
+    padding: 5px 5px;
+    color: rgb(245, 245, 245);
+    text-decoration: none;
+    font-weight: 500;
+
+}
+
+.sec1 {
+    isolation: isolate;
+    position: relative;
+    /* margin-top: 65px; */
+    height: 1200px;
+    width: 100%;
+}
+
+.aa {
+    height: auto;
+    width: 550px;
+    display: flex;
+    padding: 100px;
+  margin-left: 350px;
+    color: black;
+    text-decoration: none;
+    position: relative;
+    justify-content: space-between;
+
+}
+.aa-1{
+    
+}
+.aa-2{
+    background-color: rgba(255, 255, 255, 0.269);
+    padding: 2px 4px;
+}
+
+body {}
