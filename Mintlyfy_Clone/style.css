@@ -11,6 +11,7 @@
     --accent-color: #3B82F6;
     --dark-color: #111827;
     --light-color: #F9FAFB;
+    --darkopacity-color: #2f3a5144;
 }
 
 header {
@@ -186,20 +187,21 @@ header {
     font-weight: 450;
     line-height: 1.5;
 }
-.mail{
-    display: flex;
-    height: 39px; 
 
-    width:320px;
+.mail {
+    display: flex;
+    height: 39px;
+
+    width: 320px;
     margin-top: 30px;
     padding: 5px;
     background-color: rgba(255, 255, 255, 0.406);
     border: rgba(245, 245, 245, 0.491) 1px solid;
     border-radius: 30px;
-   
+
 }
 
-.iptext{
+.iptext {
     padding: 1px;
     margin-left: 10px;
     align-items: center;
@@ -207,8 +209,9 @@ header {
     border: none;
     color: var(--text-color);
 }
-.mail-cta{
-   
+
+.mail-cta {
+
     margin-left: 55px;
     padding: 1px 10px;
     background-color: var(--text-color);
@@ -225,12 +228,14 @@ header {
     padding: 72px 32px 144px 32px;
     justify-content: center;
 }
-.h2{
+
+.h2 {
     margin-top: 250px;
     position: relative;
-    padding: 100px; 
- 
+    padding: 100px;
+
 }
+
 /* .img2{
    border-radius: 10px;
     position: relative;
@@ -240,45 +245,180 @@ header {
     border: red solid 1px;
  
 } */
-.img3{
+.img3 {
     position: relative;
     border-radius: 10px;
 }
-.a1{
+
+.a1 {
     /* display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-row: 2;
     row-gap: 7;
     column-gap: 2; */
-  display: grid;            /* switch to grid layout */
-    grid-template-columns: repeat(4, 1fr); /* 4 equal columns */
-    grid-template-rows: repeat(2, auto);   /* 2 rows */
+    display: grid;
+    /* switch to grid layout */
+    grid-template-columns: repeat(4, 1fr);
+    /* 4 equal columns */
+    grid-template-rows: repeat(2, auto);
+    /* 2 rows */
     row-gap: 1.75rem;
-    column-gap: 0.5rem;         /* 28px vertical gap */
-    max-width: 64rem; 
+    column-gap: 0.5rem;
+    /* 28px vertical gap */
+    max-width: 64rem;
 }
-.logos{
+
+.logos {
     display: flex;
     justify-content: center;
     align-items: center;
     align-items: center;
     height: 64px;
     width: 250px;
-   
+
 }
-.xlogo{
+
+.xlogo {
     color: var(--dark-color);
     display: fill;
     background-size: small;
     width: auto;
     height: min-content;
-    padding: 10px ;
+    padding: 10px;
 
 }
 
-.img4{
+.img4 {
     width: auto;
     height: 30px;
 }
 
-body {}
+.sec3 {
+    position: relative;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 144px;
+}
+
+.textcard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 48px 32px;
+}
+
+.textcard h2 {
+
+    font-style: bold;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.card1 {
+    width: 100%;
+    display: flex;
+    gap: 1.6rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardleft {
+    width: 500px;
+    height: 500px;
+    border: var(--darkopacity-color) 1px solid;
+    border-radius: 30px;
+    padding: 1.5rem;
+
+
+}
+
+.cardleft h4 {
+    line-height: 3;
+    font-style: bold;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.cardright {
+    width: 500px;
+    height: 500px;
+    border: var(--darkopacity-color) 1px solid;
+    border-radius: 30px;
+    padding: 1.5rem;
+
+
+}
+
+.cardright h4 {
+    line-height: 3;
+    font-style: bold;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.text4 {
+    color: var(--primary-color);
+    font-size: small;
+}
+
+.text7 {
+    color: var(--primary-color);
+    font-size: small;
+}
+
+.leftimg {
+    width: auto;
+    height: 250px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.rightimg {
+    width: auto;
+    height: 250px;
+    margin-top: 40px;
+}
+
+.card2 {
+    width: 1050px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    border: var(--darkopacity-color) 1px solid;
+    border-radius: 30px;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.card2img {
+    position: relative;
+    width: 1000px;
+    height: fit-content;
+    margin-top: 40px;
+}
+
+.card2 h4 {
+    line-height: 3;
+    font-style: bold;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.text10 {
+    color: var(--primary-color);
+    font-size: small;
+}
+
+body {
+    font-family: var(--fontfamily);
+}
