@@ -4,7 +4,7 @@ Hey! This is my personal resume website made using HTML. I created this as part 
 
 ## Live Demo
 
-You can check it out here: https://namrasuthar.github.io/Cohort26/
+You can check it out here: https://namrasuthar.github.io/Cohort26/resume
 
 ## Screenshot
 
