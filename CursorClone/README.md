@@ -8,7 +8,8 @@ A static HTML and CSS recreation of the Cursor marketing site, built as a front-
 - Google Fonts (Plus Jakarta Sans)
 
 ## live demo 
-    [View Live Site] (https://namrasuthar.github.io/Cohort26/Mintlify_Clone/)
+    https://namrasuthar.github.io/Cohort26/CursorClone/
+
 
 ## Getting Started
 1. Clone or download this repository
