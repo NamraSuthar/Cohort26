@@ -6,12 +6,19 @@
 
 :root {
     --fontfamily: "inter", "inter Fallback";
+   
     --primary-color: #089c6b;
     --text-color: #F3F4F6;
     --accent-color: #3B82F6;
     --dark-color: #111827;
     --light-color: #F9FAFB;
     --darkopacity-color: #2f3a5144;
+}
+body {
+    font-family: var(--fontfamily);
+    margin: 0;
+    padding: 0;
+
 }
 
 header {
@@ -763,12 +770,7 @@ header {
     margin-bottom: 30px;
 }
 
-body {
-    font-family: var(--fontfamily);
-    margin: 0;
-    padding: 0;
 
-}
 
 
 footer {
