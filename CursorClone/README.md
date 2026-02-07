@@ -2,45 +2,13 @@
 
 A static HTML and CSS recreation of the Cursor marketing site, built as a front-end layout exercise.
 
-## Features
-- Fixed navigation with product links and CTA buttons
-- Hero section with download CTA and product image
-- Trust logos grid
-- Alternating feature callouts with large visuals
-- Testimonials grid with author profiles
-- Use case cards
-- Changelog cards
-- About section, highlights list, final CTA, and footer
-
 ## Tech Stack
 - HTML5
 - CSS3
 - Google Fonts (Plus Jakarta Sans)
 
-## Project Structure
-```
-.
-├── index.html
-├── styles.css
-├── README.md
-└── assets/
-    ├── LOCKUP_HORIZONTAL_2D_DARK.svg
-    ├── hs1img.png
-    ├── feature-section-1.png
-    ├── feature-section-2.png
-    ├── feature-section-3.png
-    ├── usecase-1.png
-    ├── usecase-2.png
-    ├── usecase-3.png
-    ├── about-image.webp
-    ├── author.jpg
-    ├── andrej.png
-    ├── diana-hu.png
-    ├── greg.png
-    ├── patrick.png
-    ├── primeagen.png
-    └── shadcn.png
-```
+## live demo 
+    [View Live Site] (https://namrasuthar.github.io/Cohort26/Mintlify_Clone/)
 
 ## Getting Started
 1. Clone or download this repository
